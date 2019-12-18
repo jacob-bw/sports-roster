@@ -27,12 +27,20 @@ class App extends React.Component {
     this.removeListener();
   }
 
+  renderView = () => {
+    const { authed } = this.state;
+    if (!authed) {
+      return (<Auth />);
+    }
+  }
+
   render() {
     const { authed } = this.state;
     return (
-    <div className="App">
+      <div className="App">
+        <MyNavbar authed={authed} />
+        { this.renderView() }
         <button className='btn btn-warning'>GO SPORTS</button>
-        <MyNavbar authed={authed}/>
     </div>
     );
   }
