@@ -1,0 +1,26 @@
+{
+  "player1": {
+    "imageUrl": "https://mk0industcomhmhlrip6.kinstacdn.com/wp-content/uploads/2018/06/danny-ocean.jpg",
+    "name": "Danny",
+    "position": "The Ringleader",
+    "uid": ""
+    },
+  "player2": {
+    "imageUrl": "https://hollywoodsuite.ca/wp-content/uploads/2016/07/00356440_2e298b4d-1800x1225.jpeg",
+    "name": "Rusty",
+    "position": "The Logistician",
+    "uid": ""
+    },
+  "player3": {
+    "imageUrl": "https://vignette.wikia.nocookie.net/oceans11/images/7/72/Reubengambling2.jpg/revision/latest?cb=20160328123535",
+    "name": "Ruben",
+    "position": "The Bankroll",
+    "uid": ""
+    },
+  "player99": {
+    "imageUrl": "https://www.hotflick.net/flicks/2001_Ocean_s_Eleven/001OEL_Andy_Garcia_032.jpg",
+    "name": "Terry",
+    "position": "The Mark",
+    "uid": "UPC085391163206"
+    }
+}
